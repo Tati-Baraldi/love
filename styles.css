@@ -1,0 +1,457 @@
+#page-1 {
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    color: #bb1919;
+    font-family: Arial, sans-serif;
+}
+
+#page-1 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.coracao {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    margin-top: 150px;
+    animation: puloPulsar 1s ease-in-out infinite;
+
+}
+@keyframes puloPulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+nav a:hover {
+    background-color: red;
+    color: white;
+}
+
+#page-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+#page-2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 3px green, 5px 5px 5px rgb(43, 182, 43);
+}
+.scrollable-box1 {
+  background: green;
+  max-width: 400px; 
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  background: black;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+#page-2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 1px 1px 3px green, 5px 5px 5px rgb(43, 182, 43)
+    
+}
+#page-2 p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+nav2 a {
+    color: green;
+    font-weight: bold;
+    padding: 10px;
+    border: 5px solid green;
+    border-radius: 20px;
+    font-size: 15px;
+}
+nav2 a:hover {
+    background-color: green;
+    color: white;
+}
+
+#page-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-image: url('/imagens/bck.jpg');
+  background-size:250%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #dbd6ccab;
+}
+
+/* Caixa para o poema */
+.scrollable-box2 {
+  background: transparent;
+  max-width: 400px; 
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Títulos */
+#page-3 h1 {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#page-3 p1 {
+  text-align: center;
+  font-size: 15px;
+  color: #0c0b0b;
+}
+
+/* Texto */
+#page-3 p {
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+  font-size: 20px;
+  color: #3e2723;
+  line-height: 1.6;
+}
+
+/* Botão estilizado */
+.nav3 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav3 a {
+  background-color: #8b5e3b;
+  color: rgb(230, 179, 122);
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav3 a:hover {
+  background-color: #1a1817;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .scrollable-box2 {
+      width: 90%;
+      padding: 30px;
+  }
+
+  #page-3 p {
+      font-size: 18px;
+  }
+}
+
+
+
+#page-4 {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+#page-4::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+#page-4 p {
+  display: flex;
+  text-align: center;
+}
+
+#page-4 h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#message-container {
+    display: block;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 90%;
+    min-height: 80vh; /* Garante que o contêiner tenha altura suficiente */
+   /* Permite rolagem caso o conteúdo seja maior que o espaço disponível */
+  }
+  
+  #couple-photo {
+    display: block; /* Alterado para block para um comportamento mais previsível */
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    max-height: 30vh; /* Ajuste para dispositivos móveis */
+    margin-top: 5px; /* Ajuste para dispositivos móveis */
+    border-radius: 20px;
+    margin: 0 auto; /* Centralizando horizontalmente */
+    }
+  
+  @media (max-width: 768px) {
+    #couple-photo {
+    width: 50%;
+      max-height: 30vh; /* Ajuste para dispositivos móveis */
+      margin-top: 5px; /* Ajuste para dispositivos móveis */
+    }
+  }
+  
+  #time-together {
+    color: rgb(241, 103, 241);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  #message-text {
+    color: rgb(241, 103, 241);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-player {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(116,41,11);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+  }
+  
+.music-cover {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.music-cover:hover,
+.music-cover:active {
+    transform: scale(1.1);
+}
+  .music-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .music-info h3 {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .music-info p {
+    font-size: 12px;
+    margin: 2px 0 0;
+    color: white;
+    white-space: nowrap ;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+#play-pause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background: white;
+    border: none;
+    border-radius: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(116,41,11);
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#play-pause:hover,
+#play-pause:active {
+    transform: scale(1.1);
+}
+  
+  .progress-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  #progress-bar {
+    margin-left: -50px;
+    width: 110%;
+    appearance: none;
+    height: 4px;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+  
+  #progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 8px;
+    height: 8px;
+    background: #826eda;
+    border-radius: 50%;
+    cursor: pointer;
+    
+  }
+  
+  .spotify-link {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+ .btt{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btt:hover,
+.btt:active {
+  transform: scale(1.1);
+ }
+ .btts{
+  position: absolute;
+  font-weight: bold;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btts:hover,
+.btts:active {
+  transform: scale(1.1);
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 50%;
+  }
+ 
+  .separator {
+    width: 100%; /* Define a largura da linha separadora */
+    height: 5px;
+    background-color: rgb(230, 42, 145); /* Cor da linha */
+    opacity: 0.5; /* Torna a linha mais sutil */
+    margin: 15px 0; /* Espaçamento acima e abaixo */
+}

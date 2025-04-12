@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body id="page-4">
+
+    
+
+<!-- Container da nova imagem e texto -->
+<div id="message-container">
+    <!-- Player de música no topo -->
+    <div class="custom-player">
+        <a href="https://open.spotify.com/intl-pt/track/2o2xhyri4aJUtgMGkf5P0J?si=90a4469145344885">
+            <img src="imagens/sua-capa.jpg" alt="Capa da música" class="music-cover">
+        </a>
+        
+        <div class="music-info">
+            <h3>Lisboa</h3>
+            <p>ANAVITÓRIA, Lenine</p>
+        </div>
+    
+        <audio id="music">
+            <source src="musica/Lisboa.mp3" type="audio/mp3">
+            Seu navegador não suporta áudio.
+        </audio>
+        <div class="progress-container">
+             <input type="range" id="progress-bar" value="0" max="100" step="0.1">
+             <span id="current-time" style="color: white; font-size: 12px;">0:00</span>       
+        </div>
+        <button id="play-pause">
+            <i class="fas fa-play"></i>
+        </button>
+  
+        <a href="https://open.spotify.com/intl-pt/track/2o2xhyri4aJUtgMGkf5P0J?si=90a4469145344885" target="_blank" class="spotify-link">
+            <i class="fab fa-spotify"></i>
+        </a>
+    </div>
+    <div class="separator"></div>
+    <!-- Foto e contagem de tempo abaixo do player -->
+    <img id="couple-photo" src="/imagens/nos.jpg" alt="NÓS" />
+    <p id="time-together"></p>
+    <div class="separator"></div>
+    <p id="message-text">
+      Cada dia que passa eu me apaixono mais ainda por você.<br><br>
+      A cada sorriso seu, a cada gesto simples, a cada palavra, eu sinto meu coração bater mais forte.<br><br>
+      Às vezes, me pego pensando no quanto você significa para mim e na imensidão do que eu sinto por você.<br><br>
+      Não há limites para o que eu posso sentir, e a cada segundo que passo contigo, percebo que meu amor só cresce, 
+      se expande de uma forma que eu nunca soube que era possível.<br><br>
+      E, sabe, pode se passar o tempo que for, nada vai diminuir o que eu sinto por você.<br><br>
+      Não importa o quanto o tempo passe, a cada dia meu amor só vai crescer.<br><br>
+      Eu vou continuar me apaixonando por você, assim, intensamente, como se fosse o primeiro dia.<br><br>
+      Porque o que eu sinto por você não tem fim.<br><br>
+      Eu te amo de uma forma que palavras não conseguem explicar, mas que a cada olhar, a cada toque, 
+      se torna mais claro, mais profundo.<br><br>
+      Obrigada por existir, por me amar e por me deixar te amar.<br><br>
+      💖 EU AMO VOCÊ 💖
+    </p>
+    
+  </div>
+<!-- Adicionando um botão para redirecionar -->
+<button id="redirect-button" class="btt">🌷</button>
+<button id="redirect-butt" class="btts">X</button>
+<script src="script.js"></script>
+</body>
+</html>
